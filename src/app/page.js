@@ -69,7 +69,14 @@ export default function Home() {
                           height={95}
                         />
                         <Typography
-                          fontSize={40}
+                          sx={{
+                            fontSize: {
+                              xs: 30,
+                              sm: 34,
+                              md: 40,
+                              lg: 40,
+                            },
+                          }}
                           mt={3}
                           variant="h1"
                           fontWeight="900"

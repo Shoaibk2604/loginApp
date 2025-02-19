@@ -40,10 +40,10 @@ const Loginform = () => {
         Personal details
       </Typography>
       <Grid container spacing={3} mt={2}>
-        <Grid size={6}>
+        <Grid size={{ xs: 12, sm: 6, md: 6, lg: 6 }}>
           <TextBox label="Address line" placeHolder="P.o.Box 1223" />
         </Grid>
-        <Grid size={6}>
+        <Grid size={{ xs: 12, sm: 6, md: 6, lg: 6 }}>
           <TextBox label="City" placeHolder="Arusha" />
         </Grid>
         <Grid size={6}>
