@@ -44,6 +44,7 @@ export default function Home() {
                 <Grid
                   size={12}
                   sx={{
+                    marginBottom: "24px",
                     background: "#ffffff",
                     borderRadius: "46px",
                     padding: {
